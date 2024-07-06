@@ -7,7 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header></header>
+    <header class="header">
+       <nav class="header__menu">
+        <a class="header__menu__link">Home</a>
+        <a class="header__menu__link">Sobre mi</a>
+       </nav> 
+    </header>
     <main class="presentacion">
         <section class="presentacion__contenido">
         <h1 class="presentacion__contenido__titulo">
@@ -21,12 +26,28 @@
             cabo buenas ideas. ¿Hablamos?
         </p>
         <div class="presentacion__enlances">
-        <a class="presentacion__enlances__link" href="https://www.instagram.com/">Instagram</a>
-        <a class="presentacion__enlances__link" href="https://github.com/">GitHub</a>
+        <h2 class="presentacion__enlances__subtitle">Accede a mis redes:</h2>
+        <a class="presentacion__enlances__link" href="https://www.instagram.com/">
+            <img src="./assets/instagram.png"> 
+            Instagram</a>
+        <a class="presentacion__enlances__link" href="https://github.com/">
+            <img src="./assets/github.png">
+            GitHub</a>
+
+        <a class="presentacion__enlances__link" href="https://www.twitch.tv/">
+            <img src="./assets/twitch.png">
+            Twitch</a>
+        
         </div>
+
+
+
         </section>
-        <img src="Imagem.png" alt="Imagen de Ana García trabajando">
+        <img src="./assets/Imagem.png" alt="Imagen de Ana García trabajando">
    </main> 
-   <footer></footer>
+
+   <footer class="footer">
+    <p>Desarrollado por NATOHN</p>
+   </footer>
 </body>
 </html>
